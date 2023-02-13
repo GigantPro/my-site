@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    height: 100%;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+    display: block;
+}
+body {
+    font: 12px/18px Arial, sans-serif;
+    height: 100%;
+}
+.wrapper {
+    min-width: 1000px;
+    max-width: 1920px;
+    margin: 0 auto;
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+}
+.middle {
+    width: 80%;
+    min-height:95%;
+    margin: 0 15% 0 5%;
+    position: absolute;
+    background:yellow;
+    z-index:1
+}
+ 
+.left-sidebar {
+    position: absolute;
+    left:0;
+    width: 5%;
+    min-height:100%;
+    background: #B5E3FF;
+    z-index:2
+}
+ 
+.right-sidebar {
+    position:absolute;
+    right:0;
+    min-height:100%;
+    z-index:2;
+    width: 15%;
+    margin-left: -250px;
+    background: #FFACAA;
+}
+ 
+.footer {
+    margin: -51px 15% 0 5%;
+    min-width: 1000px;
+    max-width: 1920px;
+    height: 5%;
+    background: #BFF08E;
+    position: relative;
+}
