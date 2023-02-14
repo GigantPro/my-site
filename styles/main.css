@@ -1,0 +1,32 @@
+/* * {
+    color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+/* body {
+    height: 100vw;
+    background-image: url("/resourses/background.jpg");
+    background-repeat: no-repeat;
+    
+} */
+
+.welcome {
+    background-color: rgba(94, 23, 187, 0.685);
+    height: 10%;
+    width: 100%;
+    font-size: 26px;
+    padding-top: 3%;
+    position: fixed;
+}
+
+a {
+    background-color: hsla(305, 86%, 34%, 0.747);
+    color: rgb(78, 102, 206);
+    border-radius: 20%;
+}
+
+.full {
+    height: 200%;
+}
