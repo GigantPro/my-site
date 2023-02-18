@@ -43,6 +43,31 @@
     border-radius: 2vw;
  }
 
+ .contacts {
+    font-size: small;
+
+    background-color: #FEF3D4;
+
+    padding: 2vw;
+
+    border: dashed #DEA4A2;
+    border-radius: 2vw;
+ }
+
+ .contacts-a {
+    font-size: 2vh;
+ }
+
+ .contacts-in {
+    font-size: 2vh;
+ }
+
+ .contacts-img {
+    height: 2vh;
+ }
+
  .mine-ico {
     width: 15vw;
+
+    border-radius: 50%;
  }
