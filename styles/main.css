@@ -1,25 +1,48 @@
-* {
-    margin: 0;
-    padding: 0;
-} 
-
-body {
-    background-image: linear-gradient(81deg, #ddb35f, #7409c7);
-    height: 100vh;
-    background-size: cover;
-}
-
-.welcome {
-    background-color: rgba(94, 23, 187, 0.685);
-    height: 4%;
+.centralldiv {
+    display: flex;
+    flex-direction: row;
+    float: left;
     width: 100%;
-    font-size: 26px;
-    padding-top: 1%;
-    position: fixed;
-}
+ }
 
-a {
-    background-color: hsla(305, 86%, 34%, 0.747);
-    color: rgb(78, 102, 206);
-    border-radius: 20%;
-}
+ .maininfo {
+    background-color: #8ADECC;
+    width: 60vw;
+    margin: 5%;
+
+    border: dashed #DEA4A2;
+    border-radius: 2vw;
+
+    padding: 1vw;
+ }
+
+ .search {
+    width: 20vw;
+
+    margin: 5%;
+
+    display: flex;
+    flex-direction: column;
+ }
+
+ .m-ico {
+    background-color: #FEF3D4;
+
+    padding: 1vw;
+
+    border: dashed #DEA4A2;
+    border-radius: 2vw;
+ }
+ 
+ .dirs {
+    background-color: #FEF3D4;
+
+    padding: 1vw;
+
+    border: dashed #DEA4A2;
+    border-radius: 2vw;
+ }
+
+ .mine-ico {
+    width: 15vw;
+ }
