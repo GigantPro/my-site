@@ -3,6 +3,8 @@
     flex-direction: row;
     float: left;
     width: 100%;
+
+    /* padding: 5v; */
  }
 
  .maininfo {
@@ -32,6 +34,9 @@
 
     border: dashed #DEA4A2;
     border-radius: 2vw;
+
+    font-size: 20pt;
+    font-weight: 700;
  }
  
  .dirs {
@@ -48,7 +53,7 @@
 
     background-color: #FEF3D4;
 
-    padding: 2vw;
+    padding: 3vw;
 
     border: dashed #DEA4A2;
     border-radius: 2vw;
@@ -72,4 +77,29 @@
     border-radius: 50%;
  }
 
- 
+ .maininfo > *,
+ .maininfo > *:after,
+ .maininfo > *:before{
+    padding: 2%;
+ }
+
+ .dirs > *,
+ .dirs > *:after,
+ .dirs > *:before{
+    padding: 3vw;
+ }
+
+ .dirs-in > a {
+    font-size: 15pt;
+ }
+
+ /* .img-stats {
+    display: flex;
+    flex-direction: row;
+ } */
+
+ /* .img-stats > *,
+ .img-stats > *:after,
+ .img-stats > *:before{
+    padding-right: 10px;
+ } */

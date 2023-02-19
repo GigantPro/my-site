@@ -1,7 +1,9 @@
 .welcome {
     background-color: #B3A4F5;
-    height: 4%;
+    /* height: 4%; */
     width: 100%;
     font-size: 26px;
-    padding-top: 1%;
+    padding: 0.5%;
+
+    font-size: 22pt;
 }
